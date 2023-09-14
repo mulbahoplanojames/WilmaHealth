@@ -1,191 +1,112 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
-  --primary-Clr: #005AB3;
-  --secondary-Clr:#fff ;
+  --primary-color:#000;
+  --secondary-color:#fff;
 }
 
-#header {
-  margin-bottom: 15vh;
-  height: 0px;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #222;
+  line-height: 1.3;
 }
 
-#about-main {
-  position: relative;
-  padding-bottom: 5%;
-}
-
-.about-main-container {
+.main-title {
   height: 40vh;
-  background: url(home-slider-1.jpg);
-}
-
-.about-main-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(blog2.peg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin-bottom: 5%;
 }
 
-.about-main-title {
-  font-size: 19px;
-  color: #fff ;
+
+.main-title h1 {
   font-size: 60px;
-  padding-bottom: 3%;
-  text-transform: uppercase;
-}
-
-.about-main-decription {
-  font-size: 17px;
   color: #fff;
-}
-
-/* The below codes are for the abour Sada section  */
-
-.about-sada-container {
-  height: 80vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
-}
-
-.about-sada-content {
-  width: 45%;
-  height: 80vh;
-}
-
-.about-sada-title1 {
-  font-size: 28px;
-  padding-bottom: 3%;
-  text-transform: uppercase;
-  color: var(--primary-Clr);
-}
-
-.about-sada-description1 {
-  font-size: 17px;
-  color: var(--primary-Clr);
-  opacity: 0.7;
-}
-/* The below codes are for the about section  */
-
-.about-content-image {
-  width: 38%;
-  height: 12vh;
-  /* background: yellow; */
-  margin: 1% auto;
-}
-
-.about-content-title {
-  color: var(--secondary-Clr);
-  text-transform: uppercase;
-  padding-top: 4%;
-  font-size: 23px;
-}
-
-.about-content-decription {
-  color: var(--secondary-Clr);
-  font-size: 17px;
-  padding: 1.5% 0px 3% 0px;
-  text-align: start;
-}
-
-.about-content-btn {
-  padding: 10px 30px;
-  font-size: 18px;
-  background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
-  color: var(--secondary-Clr);
-  border: 2px solid transparent;
-}
-
-
-/* The below codes are for the our team section  */
-
-#our-team {
-  margin: auto;
-  text-align: center;
-  padding-bottom: 5%;
-}
-
-.our-team-title {
-  font-size: 30px;
-  text-transform: uppercase;
-  color: var(--primary-Clr);
-  padding-bottom: 4%;
-}
-
-.our-team-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-.our-team-content {
-  width: 20%;
-  height: 50vh;
-  border: 2px solid var(--primary-Clr);
-  background: var(--primary-Clr);
-}
-
-.our-team-content-head {
-  height: 30vh;
-}
-
-.our-team-content-title {
   text-transform: capitalize;
-  color: var(--secondary-Clr);
-  padding: 4% 0px;
+}
+
+/**************************
+This style is for the team section  
+*************************/
+
+#team {
+  width: 90%;
+  margin: auto;
+  padding-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.team-title {
+  font-size: 35px;
+  text-transform: capitalize;padding-bottom: 2%;
+}
+
+.team-description {
+  font-size:20px;
+  padding-bottom: 3%;
+  opacity: .8;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.team-content {
+  width: 23%;
+  height:55vh;
+  background: #fff;
+  border-radius: 5px;
+  text-align: start;
+  box-shadow: 10px 10px 8px 5px #fafaff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  z-index: 2;
+}
+
+.team-img {
+  width: 100%;
+  height: 43vh;
+  background: transparent;
+}
+
+.team-member-name {
+  padding-top: 5%;
+  padding-bottom: 2%;
   font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
-.our-team-content-description {
-  font-size: 17px;
+.team-member-position {
   text-transform: uppercase;
-  color: var(--secondary-Clr);
-  padding-bottom: 5%;
+  font-size: 15px;
+  opacity: .8;
 }
 
-/********************** 
-Media Queries for responsive design 
- *********************/
- @media (max-width: 950px) {
-  #about-sada {
-    margin-top: 8%;
-  }
-  .about-main-container {
-    margin-top: 60%;
-  }
-  .about-main-title {
-    font-size: 33px;
-    padding-bottom: 4%;
-  }
-  .about-main-decription {
-    font-size: 16px;
-  }
-  .about-sada-container {
-    flex-direction: column;
-    height: fit-content;
-  }
-  .about-sada-content {
-    width: 100%;
-  }
-  .about-sada-content-one {
-    height: 55vh;
-  }
-  .about-sada-content-two {
-    height: fit-content;
-  }
-  /* Our team section  */
-  #our-team {
-    margin-top: 10%; 
-  }
-  .our-team-container {
+@media(max-width:750px) {
+  .team-container {
     flex-direction: column;
   }
-  .our-team-content {
-    width: 100%;
+  .team-content {
+    width: 98%;
   }
- }
- 
+}
+
