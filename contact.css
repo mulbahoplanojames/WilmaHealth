@@ -20,7 +20,7 @@
 
 
 .main-title h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -59,7 +59,7 @@ The style below is for the contact option section
 .bi-twitter,
 .bi-instagram {
   color: #fff;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .contact-description {
@@ -69,7 +69,7 @@ The style below is for the contact option section
 }
 
 .description-title {
-  font-size: 33px;
+  font-size: 25px;
   padding-top: 8%;
   padding-bottom: 4%;
   color: #fff;
@@ -79,7 +79,7 @@ The style below is for the contact option section
 .description-detail {
   text-decoration: none;
   color: #000;
-  font-size: 22px;
+  font-size: 19px;
   opacity: .7;
 }
 
@@ -130,7 +130,7 @@ form {
 }
 
 .label {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-transform: capitalize;
   display: inline-block;
