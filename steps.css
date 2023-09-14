@@ -33,7 +33,7 @@ body {
 
 
 .main-title h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
   text-transform: capitalize;
 }
@@ -58,19 +58,19 @@ body {
 }
 
 .steps-main-title {
-  font-size: 40px;
+  font-size: 35px;
   padding: 1% 0px;
   text-align: center;
 }
 
 .step-sub-title {
-  font-size: 28px;
+  font-size: 22px;
   padding-top: 1%;
 }
 
 .step-sub-title2 {
   padding: 1.5% 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .steps-details {
@@ -78,7 +78,7 @@ body {
 }
 
 .steps-details li {
-  font-size: 21px;
+  font-size: 19px;
   line-height: 1.5;
 }
 
@@ -97,7 +97,7 @@ body {
 }
 
 .screenshot {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
   padding-bottom: 3%;
 }
@@ -105,6 +105,6 @@ body {
 .key-step,
 .key2,
 .note{
-  font-size: 20px;
+  font-size: 19px;
 }
 
