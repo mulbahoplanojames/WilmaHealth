@@ -38,13 +38,13 @@ body {
 }
 
 .main-title h1 {
-  font-size: 60px;
+  font-size: 40px;
   color: #fff;
   text-transform: uppercase;
 }
 
 .faq-sub-title {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: capitalize;
   color: #000;
@@ -52,7 +52,7 @@ body {
 }
 
 .sub-title-description {
-  font-size: 25px;
+  font-size: 20px;
   opacity: .8;
   padding-bottom: 4%;
 }
@@ -77,7 +77,7 @@ body {
   width: 100%;
   height: fit-content;
   background: transparent;
-  margin-top: 16px;
+  margin-top: 10px;
   text-align: start;
   border-radius: 10px;
   overflow: hidden;
@@ -92,18 +92,18 @@ body {
 }
 
 .box-head h3 {
-  font-size: 25px;
+  font-size: 18px;
   color: #fff;
 }
 
 .box-body {
   padding: 10px;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .faq-btn {
-  padding: 15px 40px;
-  font-size: 22px;
+  padding: 8px 30px;
+  font-size: 18px;
   font-weight: 600;
   color: #fff;
   background: #045104;
