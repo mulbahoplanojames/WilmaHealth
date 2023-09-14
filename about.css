@@ -51,12 +51,12 @@ This style is for the team section
 }
 
 .team-title {
-  font-size: 50px;
+  font-size: 35px;
   text-transform: capitalize;padding-bottom: 2%;
 }
 
 .team-description {
-  font-size:25px;
+  font-size:20px;
   padding-bottom: 3%;
   opacity: .8;
 }
@@ -90,14 +90,14 @@ This style is for the team section
 .team-member-name {
   padding-top: 5%;
   padding-bottom: 2%;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
 }
 
 .team-member-position {
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 15px;
   opacity: .8;
 }
 
