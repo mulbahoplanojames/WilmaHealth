@@ -237,6 +237,7 @@ nav {
   }
   .preview {
     width: 98%;
+    height: 50vh;
   }
 
   /* the menu and cancel icon to be us ein js  */
@@ -331,6 +332,13 @@ This style is for the features section
   }
   .feature-content {
     width: 98%;
+    height: fit-content;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .icon-details {
+    padding-bottom: 5%;
   }
 }
 /* ******************************
@@ -394,9 +402,17 @@ This style is for the features section
 @media(max-width:750px) {
   .community-container {
     flex-direction: column;
+    padding-top: 15%;
   }
   .box-wripper {
     width: 98%;
+  }
+  .community-title {
+    font-size: 32px;
+  }
+  .wripper-two {
+    height: 50vh;
+    margin-bottom: 10%;
   }
 }
 
@@ -537,12 +553,17 @@ This style is for the features section
 }
 
 @media(max-width: 750px) {
+  .join-us-title {
+    font-style: 30px;
+  }
   .join-us-detail {
     padding-bottom: 1%;
+    font-size: 15px;
   }
   .video {
     width: 98%;
     height: 50vh;
+    margin-bottom: 10%;
   }
 }
 /******************************** 
@@ -657,6 +678,9 @@ This style is for the features section
   }
   .customer-box {
     width: 98%;
+  }
+  .customer-title {
+    font-size: 30px;
   }
 }
 
@@ -798,7 +822,10 @@ This style is for the features section
   }
   .blog-content {
     width: 98%;
-    height: 90vh;
+    height: fit-content;
+  }
+  .read-more {
+    padding-bottom: 5%;
   }
   .two {
     margin-top: 20%;
