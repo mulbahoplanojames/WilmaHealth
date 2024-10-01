@@ -126,3 +126,57 @@ export const testimonialsData: TestimonialType[] = [
     image: client_1,
   },
 ];
+
+// ============================================================================================================
+// Brand Data
+
+import brand_1 from "/src/assets/brand.png";
+import brand_2 from "/src/assets/brand2.png";
+import brand_3 from "/src/assets/brand3.png";
+import brand_4 from "/src/assets/brand4.png";
+
+export const BrandLogo = [
+  {
+    id: 1,
+    title: "brand logo",
+    logo: brand_1,
+  },
+  {
+    id: 2,
+    title: "brand logo",
+    logo: brand_2,
+  },
+  {
+    id: 3,
+    title: "brand logo",
+    logo: brand_3,
+  },
+  {
+    id: 4,
+    title: "brand logo",
+    logo: brand_4,
+  },
+];
+
+// ===========================================================================
+
+export const CompanyData = [
+  {
+    label: "Home",
+    path: "#",
+  },
+  {
+    label: "Appointment",
+    path: "#",
+  },
+  {
+    label: "Doctors",
+    path: "#",
+  },
+  {
+    label: "Services",
+    path: "#",
+  },
+];
+
+export const UseFulLinks = ["Partners", "Testimonial", "Appoinment", "Privacy"];

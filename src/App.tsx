@@ -3,6 +3,7 @@ import Navbar from "./Layouts/Navbar";
 import HomePage from "./Pages/Home";
 import HealthcareAppointmentScheduler from "./Pages/Appointment";
 import DoctorDirectory from "./Pages/Doctors";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         />
         <Route path="/doctors" element={<DoctorDirectory />} />
       </Routes>
+      <Footer />
     </>
   );
 };
