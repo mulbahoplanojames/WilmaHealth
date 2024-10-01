@@ -62,6 +62,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
+        {/* made with love  */}
+        <a href="https://techspace-one.vercel.app/" target="_blank">
+          <div
+            className="fixed bottom-10 right-4 p-2 rounded-md bg-white text-base cursor-pointer text-slate-900 border-2 border-[#f8a480] hover:bg-[#f8a480] hover:text-white transition-all"
+            title="Visit our website"
+          >
+            made ❤️<span className="text-blue-800"> Techspace</span>
+            <p>Build your website today</p>
+          </div>
+        </a>
       </footer>
     </>
   );
