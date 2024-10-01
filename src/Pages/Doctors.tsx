@@ -11,9 +11,20 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import doctors from "@/Data/Data";
+import Swal from "sweetalert2";
 
 const DoctorDirectory: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
+
+  const handleBookingAlert = (doctor: string) => {
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: `Booking appointment with ${doctor}`,
+      showConfirmButton: false,
+      timer: 1500,
+    });
+  };
 
   const filteredDoctors = doctors.filter(
     (doctor) =>
@@ -22,7 +33,7 @@ const DoctorDirectory: React.FC = () => {
   );
 
   return (
-    <div className="container mx-auto p-4 mt-28">
+    <div className="container mx-auto p-4 mt-28 mb-20">
       <h1 className="text-4xl font-bold mb-8">Our Doctors</h1>
 
       <div className="mb-10">
@@ -54,9 +65,7 @@ const DoctorDirectory: React.FC = () => {
               <p>{doctor.experience} years of experience</p>
             </CardContent>
             <CardFooter>
-              <Button
-                onClick={() => alert(`Booking appointment with ${doctor.name}`)}
-              >
+              <Button onClick={() => handleBookingAlert(doctor.name)}>
                 Book Appointment
               </Button>
             </CardFooter>
