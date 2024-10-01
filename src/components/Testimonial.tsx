@@ -11,13 +11,13 @@ import { Card, CardContent } from "./ui/card";
 
 const Testimonial = () => {
   return (
-    <section className="md:py-20 py-12 bg-gray-50" id="/testimonials">
+    <section className="md:pb-20 py-12 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-[#f8a480] font-semibold tracking-wide uppercase">
             Testimonials
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight  sm:text-4xl">
             What Our Clients Say
           </p>
         </div>
@@ -31,10 +31,10 @@ const Testimonial = () => {
             {testimonialsData.map((testimonial, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="dark:bg-white">
+                  <Card className="">
                     <CardContent className="flex flex-col rounded-lg shadow-lg overflow-hidden p-6">
                       <div className="flex-1">
-                        <p className="text-lg font-medium text-gray-900">
+                        <p className="text-lg font-medium text-gray-900 dark:text-slate-300">
                           {testimonial.content}
                         </p>
                       </div>
@@ -49,7 +49,7 @@ const Testimonial = () => {
                           />
                         </div>
                         <div className="ml-3">
-                          <p className="text-sm font-medium text-gray-900">
+                          <p className="text-sm font-medium text-gray-900 dark:text-slate-300">
                             {testimonial.author}
                           </p>
                           <p className="text-sm text-gray-500">

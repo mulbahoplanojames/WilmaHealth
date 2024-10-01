@@ -5,7 +5,7 @@ import Img_2 from "/src/assets/whychoose2.jpg";
 const WhyChooseUs = () => {
   return (
     <>
-      <section className="md:px-20 px-4 md:pb-24 pt-8 py-8 grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-6 gap-y-8 place-items-center">
+      <section className="md:px-20 px-4 md:pb-16 pt-8 py-8 grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-6 gap-y-8 place-items-center">
         <div className="w-full h-fit py-3 ">
           <h2 className="md:text-4xl text-3xl font-bold pb-5">
             Why Choose Us?

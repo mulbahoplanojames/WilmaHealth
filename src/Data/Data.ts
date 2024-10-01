@@ -92,40 +92,37 @@ export const ServiceCardData: ServiceType[] = [
 
 // Testimonial Data
 
+import client_1 from "/src/assets/client_1.jpg";
+import client_2 from "/src/assets/client_2.jpg";
+import client_3 from "/src/assets/client_3.jpg";
+
 export const testimonialsData: TestimonialType[] = [
   {
     content:
-      "Working with this team was a game-changer for our online presence. They delivered a website that exceeded our expectations and significantly boosted our conversions.",
-    author: "Jane Cooper",
-    role: "CEO, TechCorp",
-    image: "client_1",
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+    author: "Kathryn Cooper",
+    role: "CEO, CorpHealth",
+    image: client_1,
   },
   {
     content:
-      "The UI/UX design for our app was spot-on. Our users love the intuitive interface, and we've seen a marked increase in user engagement since the redesign.",
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+    author: "Rebecca Gilbert",
+    role: "Obstetrics & Gynaecology",
+    image: client_2,
+  },
+  {
+    content:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+    author: "Matthew Reyes",
+    role: "Marketing Director, CreativeCo",
+    image: client_3,
+  },
+  {
+    content:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     author: "John Doe",
     role: "Founder, FitnessPro",
-    image: "client_2",
-  },
-  {
-    content:
-      "Their graphic design work perfectly captured our brand essence. The new visual identity has received overwhelmingly positive feedback from our clients and partners.",
-    author: "Alice Smith",
-    role: "Marketing Director, CreativeCo",
-    image: "client_3",
-  },
-  {
-    content:
-      "The UI/UX design for our app was spot-on. Our users love the intuitive interface, and we've seen a marked increase in user engagement since the redesign.",
-    author: "John Doe",
-    role: "Founder, FitnessPro",
-    image: "client_4",
-  },
-  {
-    content:
-      "Their graphic design work perfectly captured our brand essence. The new visual identity has received overwhelmingly positive feedback from our clients and partners.",
-    author: "Alice Smith",
-    role: "Marketing Director, CreativeCo",
-    image: "client_5",
+    image: client_1,
   },
 ];

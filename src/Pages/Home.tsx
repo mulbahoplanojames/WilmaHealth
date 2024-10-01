@@ -1,5 +1,7 @@
+import Brands from "@/components/Brands";
 import HomeHero from "@/components/HomeHero";
 import Services from "@/components/Services";
+import Testimonial from "@/components/Testimonial";
 import WhyChooseUs from "@/WhyChooseUs";
 
 const HomePage = () => (
@@ -8,6 +10,8 @@ const HomePage = () => (
       <HomeHero />
       <Services />
       <WhyChooseUs />
+      <Testimonial />
+      <Brands />
     </div>
   </>
 );
