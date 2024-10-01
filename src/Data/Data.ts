@@ -1,4 +1,4 @@
-import DoctorType, { ServiceType } from "@/Types/types";
+import DoctorType, { ServiceType, TestimonialType } from "@/Types/types";
 
 export const navLinks = [
   {
@@ -85,5 +85,47 @@ export const ServiceCardData: ServiceType[] = [
     description:
       "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
     icon: Dna,
+  },
+];
+
+// =====================================================================================
+
+// Testimonial Data
+
+export const testimonialsData: TestimonialType[] = [
+  {
+    content:
+      "Working with this team was a game-changer for our online presence. They delivered a website that exceeded our expectations and significantly boosted our conversions.",
+    author: "Jane Cooper",
+    role: "CEO, TechCorp",
+    image: "client_1",
+  },
+  {
+    content:
+      "The UI/UX design for our app was spot-on. Our users love the intuitive interface, and we've seen a marked increase in user engagement since the redesign.",
+    author: "John Doe",
+    role: "Founder, FitnessPro",
+    image: "client_2",
+  },
+  {
+    content:
+      "Their graphic design work perfectly captured our brand essence. The new visual identity has received overwhelmingly positive feedback from our clients and partners.",
+    author: "Alice Smith",
+    role: "Marketing Director, CreativeCo",
+    image: "client_3",
+  },
+  {
+    content:
+      "The UI/UX design for our app was spot-on. Our users love the intuitive interface, and we've seen a marked increase in user engagement since the redesign.",
+    author: "John Doe",
+    role: "Founder, FitnessPro",
+    image: "client_4",
+  },
+  {
+    content:
+      "Their graphic design work perfectly captured our brand essence. The new visual identity has received overwhelmingly positive feedback from our clients and partners.",
+    author: "Alice Smith",
+    role: "Marketing Director, CreativeCo",
+    image: "client_5",
   },
 ];

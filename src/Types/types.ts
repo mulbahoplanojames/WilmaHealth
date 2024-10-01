@@ -16,3 +16,10 @@ export interface ServiceType {
   description: string;
   icon: React.FC<React.SVGProps<SVGSVGElement>>;
 }
+
+export interface TestimonialType {
+  content: string;
+  author: string;
+  role: string;
+  image: string;
+}
