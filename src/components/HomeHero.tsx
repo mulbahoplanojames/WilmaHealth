@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
+import img_1 from "/src/assets/heroimage.png";
+import img_2 from "/src/assets/heroimage.png";
+import img_3 from "/src/assets/doctor.png";
+
 const HomeHero = () => {
   return (
     <>
@@ -29,18 +33,18 @@ const HomeHero = () => {
         </div>
         <div className="w-full md:h-[25rem] h-[16rem] relative md:order-last order-first">
           <img
-            src="/src/assets/heroimage.png"
-            alt=""
+            src={img_1}
+            alt="Doctor Image"
             className="w-full h-full md:object-scale object-contain z-10"
           />
           <img
-            src="/src/assets/heroimage.png"
-            alt=""
+            src={img_2}
+            alt="Doctor Image"
             className="w-44 md:h-56 md:w-56 h-44 md:object-scale object-contain absolute top-0 md:right-4 -right-8"
           />
           <img
-            src="/src/assets/doctor.png"
-            alt=""
+            src={img_3}
+            alt="Doctor Image"
             className="w-44 md:h-56 md:w-56 h-44 md:object-scale object-contain absolute top-0 md:left-0 -left-8"
           />
         </div>
