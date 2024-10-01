@@ -151,12 +151,19 @@ const HealthcareAppointmentScheduler: React.FC = () => {
             <Label htmlFor="time">Preferred Time</Label>
             <Input
               id="time"
+              list="time-options"
               name="time"
               type="time"
               value={newAppointment.time}
               onChange={handleInputChange}
               className="dark:border-white"
             />
+            <datalist id="time-options">
+              <option value="07:00" />
+              <option value="11:00" />
+              <option value="2:00" />
+              <option value="4:00" />
+            </datalist>
           </div>
           <div>
             <Label htmlFor="doctor">Select Doctor</Label>

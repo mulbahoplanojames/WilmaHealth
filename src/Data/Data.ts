@@ -1,3 +1,5 @@
+import DoctorType, { ServiceType } from "@/Types/types";
+
 export const navLinks = [
   {
     title: "Home",
@@ -13,15 +15,7 @@ export const navLinks = [
   },
 ];
 
-interface Doctor {
-  id: number;
-  name: string;
-  specialty: string;
-  experience: number;
-  image: string;
-}
-
-const doctors: Doctor[] = [
+const doctors: DoctorType[] = [
   {
     id: 1,
     name: "Dr. Jane Smith",
@@ -57,3 +51,39 @@ const doctors: Doctor[] = [
 ];
 
 export default doctors;
+
+//==============================================================================================
+// Services Data
+
+import { HeartPulse, Activity, Brain, Dna } from "lucide-react";
+
+export const ServiceCardData: ServiceType[] = [
+  {
+    id: 1,
+    title: "Specialist Consultations",
+    description:
+      "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
+    icon: HeartPulse,
+  },
+  {
+    id: 2,
+    title: "Preventive Health Screenings",
+    description:
+      "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
+    icon: Activity,
+  },
+  {
+    id: 3,
+    title: "Telemedicine",
+    description:
+      "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
+    icon: Brain,
+  },
+  {
+    id: 4,
+    title: "Specialist Consultations",
+    description:
+      "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
+    icon: Dna,
+  },
+];

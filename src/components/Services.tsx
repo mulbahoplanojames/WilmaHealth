@@ -1,3 +1,4 @@
+import { ServiceCardData } from "@/Data/Data";
 import {
   Card,
   CardContent,
@@ -5,39 +6,6 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-
-import { HeartPulse, Activity, Brain, Dna } from "lucide-react";
-
-const ServiceCardData = [
-  {
-    id: 1,
-    title: "Specialist Consultations",
-    description:
-      "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
-    icon: HeartPulse,
-  },
-  {
-    id: 2,
-    title: "Preventive Health Screenings",
-    description:
-      "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
-    icon: Activity,
-  },
-  {
-    id: 3,
-    title: "Telemedicine",
-    description:
-      "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
-    icon: Brain,
-  },
-  {
-    id: 4,
-    title: "Specialist Consultations",
-    description:
-      "Our primary care team offers a range of specialized care options to help you live your best life. We offer a variety of services, including:",
-    icon: Dna,
-  },
-];
 
 const Services = () => {
   return (
